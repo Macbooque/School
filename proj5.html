@@ -1,0 +1,36 @@
+<html>
+<head>
+ <title>Project 5</title>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="proj5.js"></script>
+ <link href="proj5.css" rel="stylesheet">
+</head>
+<body>
+<h1>Chat Room</h1>
+<br><br>
+<form id = "form">
+    <div>
+        <h2>Chat Entry</h2>
+        <label>Username: </label>
+        <input type = "text" id = "name" name = "name" placeholder = "Enter Username"/>
+      <br>
+        <label>Password: </label>
+        <input type = "text" id = "password" name = "password" placeholder = "Enter Password"/>
+      <br>
+        <label>Chat Box: </label>
+        <textarea id = "chatEntry" name = "chatEntry" placeholder = "Enter a chat here" onkeyup = "sendInput()"></textarea>
+      <br>
+        <input id = "loginFail" name = "loginFail" readonly/>
+      <br><br>
+    </div>
+    <span>
+        <h2>Chat Listening</h2>
+        <label>Enter a name to retrieve a chat(Updates in real-time): </label>
+        <br>
+        <input type = "text" id = "listenName" name = "listenName" placeholder = "Enter a name"/>
+        <br>
+        <textarea id = "listenArea" name = "listenArea" ></textarea>
+    </span>
+</form>
+</body>
+</html>
