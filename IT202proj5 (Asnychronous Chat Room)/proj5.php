@@ -2,7 +2,7 @@
 
 $servername = "sql1.njit.edu";
 $username = "dee22";
-$password = "Dumbass1234!";
+$password = "---------";
 $dbname = "dee22";
 
 $connect = mysqli_connect($servername,$username,$password,$dbname);
