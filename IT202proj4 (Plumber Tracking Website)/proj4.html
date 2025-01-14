@@ -1,0 +1,61 @@
+<html>
+<head>
+ <title>Project #4</title>
+ <script src="proj4.js"></script>
+</head>
+<body>
+<link href="proj4.css" rel="stylesheet">
+<h1>Perfect Plumbing Pros</h1>
+<form id = "form" action="proj4.php" method="GET">
+ <p>
+  <label>Plumber's First Name: 
+  <input type = "text" id = "firstname" name = "firstname" placeholder = "Ex: John" />REQUIRED</label>
+ </p>
+ <p>
+  <label>Plumber's Last Name: 
+  <input type = "text" id = "lastname" name = "lastname" placeholder = "Ex: Smith" />REQUIRED</label>
+ </p>
+ <p>
+  <label>Plumber's Password: 
+  <input type = "password" id = "password" name = "password" placeholder = "Ex: D4$$"
+  title = "Password must contain a maximum of 5 characters, including at least 1 uppercase letter, one number, and one special character" />REQUIRED</label>
+  <br>
+  <label>Show/Hide Password:</label>
+  <input type="checkbox" id="showpasswordbox" name="showpasswordbox">
+ </p>
+ <p>
+  <label>Plumber's ID#: 
+  <input type = "text" id = "plumberid" name = "plumberid" placeholder = "Ex: 3333"
+  title = "ID must be exactly 4 digits" />REQUIRED</label>
+ </p>
+ <p>
+  <label>Plumber's Phone #: 
+  <input type = "text" id = "phonenumber" name = "phonenumber" placeholder = "Ex: 123-456-7890"
+  title = "Phone Number must be 10 digits, delimited only by dashes or spaces"/>REQUIRED</label>
+ </p>
+ <p>
+  <label>Plumber's Email: </label>
+  <input type = "text" id = "emailaddress" name = "emailaddress" placeholder = "Ex: dumb@PPP.com" /> <label id = 'emailrequired'></label>
+ </p>
+ <p>
+  <label>Check this box to receive an email confirmation:</label>
+  <input type="checkbox" id="emailconfirmation" name="emailconfirmation">
+ </p>
+ <p>
+  <label>Select a Transaction: </label>
+   <select id = "transactiontype" name = "transactiontype">
+    <option value = "plumberAccountSearch">Search a Plumber's Accounts</option>
+    <option value = "bookAppointment">Book a Customer's Appointment</option>
+    <option value = "cancelAppointment">Cancel a Customer's Appointment</option>
+    <option value = "requestSupplies">Request Supplies</option>
+    <option value = "updateRecords">Update a Customer's Records</option>
+    <option value = "createCustomer">Create a New Customer</option>
+   </select>
+ </p>
+ <p>
+ <input type="submit" id = "submit"/>
+ <input type="reset" id = "reset"/>
+ </p>
+</form>
+</body>
+</html>

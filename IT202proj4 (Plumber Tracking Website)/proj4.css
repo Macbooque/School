@@ -1,0 +1,90 @@
+body{
+    background-image: url("plumberbackground.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-family : "Georgia", serif;
+    font-size : 50px;
+    padding: 20px;
+    text-align : center;
+    color : #614200
+}
+
+p{
+    margin-bottom:20px;
+    text-align : center;
+}
+
+label{
+    font-family : "Georgia", serif;
+    font-size: 12pt;
+    font-weight:bold;
+    padding:5px
+}
+
+input{
+    width: 15%;
+    height : 30px;
+    font-family : "Georgia", serif;
+    font-size: 12pt
+}
+
+#transactiontype{
+    width: 20%;
+    height : 40px;
+    font-family : "Georgia", serif;
+    font-size: 11pt;
+    position: relative;
+}
+
+input[type=submit]{
+    width: 10%;
+    height : 30px;
+    background-color: black;
+    color:white;
+    border-width: 2px;
+    border-color: white;
+}
+#home {
+    width: 10%;
+    height : 30px;
+    background-color: black;
+    color:white;
+    border-width: 2px;
+    border-color: white;
+}
+
+input[type=reset]{
+    width: 10%;
+    height : 30px;
+    background-color: black;
+    color:white;
+    border-width: 2px;
+    border-color: white;
+}
+
+input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+    margin-left: 0
+}
+table {
+    font-weight : bold;
+    font-size: 8pt;
+    font-family : "Georgia", serif;
+    background-color : lightgray;
+}
+
+input[type=radio]{
+    width: 15px;
+    height : 15px
+}
+
+span label{
+    font-family : "Georgia", serif;
+    font-size: 10pt;
+    font-weight: normal;
+}
+
